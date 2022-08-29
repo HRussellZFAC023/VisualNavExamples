@@ -1,5 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
+using VisualNavExamples;
 
 namespace UnitTestExamples
 {
@@ -9,11 +10,10 @@ namespace UnitTestExamples
         // Welcome to the Hello World with FizzBuzz template
         // Get started, make sure VisualNav for Visual Studio is installed: LINK
         // Optionally, make sure motion input is installed LINK
-        //
-        // Step 1
+
         // Use unit test function
         // 
-        // Naviagate the Command Pallet (radial menu), by selecting Test -> Assert. 
+        // Navigate the Command Pallet (radial menu), by selecting Test -> Assert. 
         // You will see several blocks that can be used in the unit test project.
         // Use AreEqual() as an example. Click this command and create it in the building window.
         //
@@ -30,9 +30,9 @@ namespace UnitTestExamples
 
 
         [TestMethod]
-        public void TestMethod1()
+        public void MethodToTestReturns5()
         {
-
+            Assert.AreEqual(VisualNavExamples.HelloWorldTemplate.MethodToTest(), 5);
         }
     }
 }
