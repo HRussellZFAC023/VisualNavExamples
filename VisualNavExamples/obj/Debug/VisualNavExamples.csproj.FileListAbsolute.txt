@@ -1,0 +1,8 @@
+F:\learn\UCL\COMP\COMP0111 group project\VisualNavExamples\VisualNavExamples\obj\Debug\VisualNavExamples.csproj.AssemblyReference.cache
+F:\learn\UCL\COMP\COMP0111 group project\VisualNavExamples\VisualNavExamples\obj\Debug\_EmptyResource.resources
+F:\learn\UCL\COMP\COMP0111 group project\VisualNavExamples\VisualNavExamples\obj\Debug\VisualNavExamples.csproj.GenerateResource.cache
+F:\learn\UCL\COMP\COMP0111 group project\VisualNavExamples\VisualNavExamples\obj\Debug\VisualNavExamples.csproj.CoreCompileInputs.cache
+F:\learn\UCL\COMP\COMP0111 group project\VisualNavExamples\VisualNavExamples\obj\Debug\CSharp\1033\VisualNavExamples.zip
+F:\learn\UCL\COMP\COMP0111 group project\VisualNavExamples\VisualNavExamples\obj\Debug\VisualNavExamples.dll
+F:\learn\UCL\COMP\COMP0111 group project\VisualNavExamples\VisualNavExamples\obj\Debug\VisualNavExamples.pdb
+F:\learn\UCL\COMP\COMP0111 group project\VisualNavExamples\VisualNavExamples\bin\Debug\ProjectTemplates\CSharp\1033\VisualNavExamples.zip
