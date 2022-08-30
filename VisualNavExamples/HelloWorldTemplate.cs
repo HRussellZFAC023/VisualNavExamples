@@ -24,10 +24,19 @@ namespace VisualNavExamples
             // 
             // Choose a right position in the Main method and click the 'insert code' button.
             // The result would be like Console.WriteLine("hello world");
+            //
+            // Example is provided in examples/hello world.jpg
 
             Console.writeLine("hello world");
 
-            //  We can also write a more complicated algorithm, this prints  Fizz on odd numbers and Buzz on even numbers
+            // We can also write a more complicated algorithm, this prints  Fizz on odd numbers and Buzz on even numbers
+            // Use 'for (code -> loops -> for)' block to create for loops, and use 'number (code -> math -> number)' block to specify the loop condition.
+            // Use 'get (code -> variables -> get)' block to get the loop variable.
+            // Use 'if (code -> logic -> if)' block to create if statements and use mutator to create more if esle statements.
+            // Use 'compare (code -> logic -> compare)' block to combine different boolean conditions.
+            // Use 'print (code -> text -> print)' block and 'text (code -> text -> text)' block to print the results.
+            //
+            // Example is provided in examples/FizzBuzz.jpg.
 
             dynamic i;
             for ( i = 1; i <= 100; i++)
@@ -62,13 +71,15 @@ namespace VisualNavExamples
             // Navigate the Command Pallet by selecting Custom Blocks -> Custom Function. 
             // Then you will see a new command called Math.random() under the Custom Blocks directory.
             //
-            // Choose a right position in the Main method and click the 'insert code' button.
-            // The result would be like Math.random();  
+            // Use 'set' block and set the result of function to a variable x
+            // Use 'print' block to print the result.
+            //
+            // Example is provided in examples/custom function.jpg
 
-            dynamic x = Math.random();
+
+            var x;
+            x = Math.random();
             Console.WriteLine(x);
-
-
         }
 
 
