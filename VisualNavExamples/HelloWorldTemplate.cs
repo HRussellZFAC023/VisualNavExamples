@@ -80,7 +80,38 @@ namespace VisualNavExamples
             var x;
             x = Math.random();
             Console.WriteLine(x);
+
+            // Step 4
+            // Using Thread library (currently C# only)
+            // import Thread library by using System.Threading;
+            //
+            // Create a function called ThreadProc (code -> functions -> def no return)
+            // The ThreadProc method is called when the thread starts.
+            // Examples is provided in examples/ThreadProc.jpg
+            //
+            // Build the following function to create a thread.
+            // var T = new Thread(ThreadProc);
+            // T.Start();
+            // For convenience, we can add 'new' and 'ThreadProc' as custom object and add 'Thread' and 'Start' as custom function.
+            // Create a variable t and connect it with the custom function 'Thread'.
+            // As we didn't provide consuructor in the command pallet, users have to insert the keyword 'new' manually.
+            // Example is provided in examples/CreateThread.jpg
+            var ThreadVariable, T;
+            ThreadVariable = ThreadProc;
+            T = new Thread(ThreadVariable);
+
+            T.Start();
         }
+
+
+        var i;
+
+        var ThreadProc = new Action(() => {
+          for (i = 0; i <= 10; i++) {
+            Console.WriteLine(String.Concat("ThreadProc: {0}", i));
+          }
+        });
+
 
 
         public int MethodToTest()
