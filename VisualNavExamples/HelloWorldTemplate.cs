@@ -1,12 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace VisualNavExamples
 {
-	public class HelloWorldTemplate
-	{
+    public class HelloWorldTemplate
+    {
+
         static void Main(string[] args)
-		{
+        {
             // Welcome to the Hello World with FizzBuzz template
             // Get started, make sure VisualNav for Visual Studio is installed and optionally, motion input
             // https://sites.google.com/view/visualnav/download
@@ -27,7 +32,7 @@ namespace VisualNavExamples
             //
             // Example is provided in examples/hello world.jpg
 
-            Console.writeLine("hello world");
+            Console.WriteLine("hello world");
 
             // We can also write a more complicated algorithm, this prints  Fizz on odd numbers and Buzz on even numbers
             // Use 'for (code -> loops -> for)' block to create for loops, and use 'number (code -> math -> number)' block to specify the loop condition.
@@ -39,7 +44,7 @@ namespace VisualNavExamples
             // Example is provided in examples/FizzBuzz.jpg.
 
             dynamic i;
-            for ( i = 1; i <= 100; i++)
+            for (i = 1; i <= 100; i++)
             {
                 if (i % 3 == 0 && i % 5 == 0)
                 {
@@ -64,12 +69,12 @@ namespace VisualNavExamples
 
             // Step 3
             // Using a library (currently C# only)
-            // For exampe, we want to use the Math.random() function. 
+            // For exampe, we want to use the Math.Abs() function. 
             //
             // Choose the library name and the function name (Math.random).
             //
             // Navigate the Command Pallet by selecting Custom Blocks -> Custom Function. 
-            // Then you will see a new command called Math.random() under the Custom Blocks directory.
+            // Then you will see a new command called Math.Abs() under the Custom Blocks directory.
             //
             // Use 'set' block and set the result of function to a variable x
             // Use 'print' block to print the result.
@@ -77,48 +82,51 @@ namespace VisualNavExamples
             // Example is provided in examples/custom function.jpg
 
 
-            var x;
-            x = Math.random();
+            dynamic x;
+            x = Math.Abs(10);
             Console.WriteLine(x);
 
             // Step 4
             // Using Thread library (currently C# only)
             // import Thread library by using System.Threading;
             //
-            // Create a function called ThreadProc (code -> functions -> def no return)
+            // We have provided a function called ThreadProc.
             // The ThreadProc method is called when the thread starts.
             // Examples is provided in examples/ThreadProc.jpg
             //
             // Build the following function to create a thread.
-            // var T = new Thread(ThreadProc);
+            // dynamic T = new Thread(ThreadProc);
             // T.Start();
             // For convenience, we can add 'new' and 'ThreadProc' as custom object and add 'Thread' and 'Start' as custom function.
             // Create a variable t and connect it with the custom function 'Thread'.
             // As we didn't provide consuructor in the command pallet, users have to insert the keyword 'new' manually.
             // Example is provided in examples/CreateThread.jpg
-            var ThreadVariable, T;
-            ThreadVariable = ThreadProc;
-            T = new Thread(ThreadVariable);
-
+            dynamic T;
+            T = new Thread(ThreadProc);
             T.Start();
+
+
+
+
+            Console.ReadKey();
         }
 
+        public static void ThreadProc()
+        {
+            dynamic i;
 
-        var i;
+            for (i = 0; i <= 10; i++)
+            {
+                Console.WriteLine(String.Concat("ThreadProc: {0}", i));
+            }
+        }
 
-        var ThreadProc = new Action(() => {
-          for (i = 0; i <= 10; i++) {
-            Console.WriteLine(String.Concat("ThreadProc: {0}", i));
-          }
-        });
-
-
-
-        public int MethodToTest()
+        public static int MethodToTest()
         {
             return 5;
         }
 
-    }
 
+
+    }
 }

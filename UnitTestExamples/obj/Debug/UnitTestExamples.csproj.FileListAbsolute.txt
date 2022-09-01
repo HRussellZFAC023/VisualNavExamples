@@ -1,15 +1,18 @@
-C:\Users\henry\Source\Repos\VisualNavExamples\UnitTestExamples\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
-C:\Users\henry\Source\Repos\VisualNavExamples\UnitTestExamples\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
-C:\Users\henry\Source\Repos\VisualNavExamples\UnitTestExamples\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
-C:\Users\henry\Source\Repos\VisualNavExamples\UnitTestExamples\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
-C:\Users\henry\Source\Repos\VisualNavExamples\UnitTestExamples\bin\Debug\UnitTestExamples.dll
-C:\Users\henry\Source\Repos\VisualNavExamples\UnitTestExamples\bin\Debug\UnitTestExamples.pdb
-C:\Users\henry\Source\Repos\VisualNavExamples\UnitTestExamples\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
-C:\Users\henry\Source\Repos\VisualNavExamples\UnitTestExamples\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
-C:\Users\henry\Source\Repos\VisualNavExamples\UnitTestExamples\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
-C:\Users\henry\Source\Repos\VisualNavExamples\UnitTestExamples\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
-C:\Users\henry\Source\Repos\VisualNavExamples\UnitTestExamples\obj\Debug\UnitTestExamples.csproj.AssemblyReference.cache
-C:\Users\henry\Source\Repos\VisualNavExamples\UnitTestExamples\obj\Debug\UnitTestExamples.csproj.CoreCompileInputs.cache
-C:\Users\henry\Source\Repos\VisualNavExamples\UnitTestExamples\obj\Debug\UnitTestExamples.csproj.CopyComplete
-C:\Users\henry\Source\Repos\VisualNavExamples\UnitTestExamples\obj\Debug\UnitTestExamples.dll
-C:\Users\henry\Source\Repos\VisualNavExamples\UnitTestExamples\obj\Debug\UnitTestExamples.pdb
+F:\learn\UCL\COMP\COMP0111 group project\VisualNavExamples\UnitTestExamples\obj\Debug\UnitTestExamples.csproj.AssemblyReference.cache
+F:\learn\UCL\COMP\COMP0111 group project\VisualNavExamples\UnitTestExamples\obj\Debug\UnitTestExamples.csproj.CoreCompileInputs.cache
+F:\learn\UCL\COMP\COMP0111 group project\VisualNavExamples\UnitTestExamples\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+F:\learn\UCL\COMP\COMP0111 group project\VisualNavExamples\UnitTestExamples\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+F:\learn\UCL\COMP\COMP0111 group project\VisualNavExamples\UnitTestExamples\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+F:\learn\UCL\COMP\COMP0111 group project\VisualNavExamples\UnitTestExamples\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+F:\learn\UCL\COMP\COMP0111 group project\VisualNavExamples\UnitTestExamples\bin\Debug\UnitTestExamples.dll
+F:\learn\UCL\COMP\COMP0111 group project\VisualNavExamples\UnitTestExamples\bin\Debug\UnitTestExamples.pdb
+F:\learn\UCL\COMP\COMP0111 group project\VisualNavExamples\UnitTestExamples\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+F:\learn\UCL\COMP\COMP0111 group project\VisualNavExamples\UnitTestExamples\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+F:\learn\UCL\COMP\COMP0111 group project\VisualNavExamples\UnitTestExamples\bin\Debug\VisualNavExamples.exe
+F:\learn\UCL\COMP\COMP0111 group project\VisualNavExamples\UnitTestExamples\bin\Debug\VisualNavExamples.pdb
+F:\learn\UCL\COMP\COMP0111 group project\VisualNavExamples\UnitTestExamples\bin\Debug\VisualNavExamples.exe.config
+F:\learn\UCL\COMP\COMP0111 group project\VisualNavExamples\UnitTestExamples\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+F:\learn\UCL\COMP\COMP0111 group project\VisualNavExamples\UnitTestExamples\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+F:\learn\UCL\COMP\COMP0111 group project\VisualNavExamples\UnitTestExamples\obj\Debug\UnitTestExamples.csproj.CopyComplete
+F:\learn\UCL\COMP\COMP0111 group project\VisualNavExamples\UnitTestExamples\obj\Debug\UnitTestExamples.dll
+F:\learn\UCL\COMP\COMP0111 group project\VisualNavExamples\UnitTestExamples\obj\Debug\UnitTestExamples.pdb

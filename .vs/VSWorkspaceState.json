@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\UnitTestExamples"
   ],
-  "SelectedNode": "\\VisualNavExamples.sln",
+  "SelectedNode": "\\UnitTestExamples\\UnitTestExample.cs",
   "PreviewInSolutionExplorer": false
 }
