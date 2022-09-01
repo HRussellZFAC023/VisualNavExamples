@@ -1,0 +1,82 @@
+﻿<Window
+    x:Class="xamlExamples.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:xamlExamples"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="MainWindow"
+    Width="800"
+    Height="450"
+    mc:Ignorable="d">
+    <Grid>
+        <!--
+            Welcome to XAML template to show how to use XAML to write WPF apps
+            Get started, make sure VisualNav for Visual Studio is installed
+            https://sites.google.com/view/visualnav/download
+            Optionally, make sure motion input is installed
+            https://www.touchlesscomputing.org/
+            Step 1
+            Open VisualNav
+            With motion input, Voice Command - "Open All Windows" or Select Tools -> OpenAllWindows
+            Step 2
+            Open an XAML file
+            Step 3
+            Create WPF apps using XAML
+            Example1: Create a "Click Me" button
+            Click "Input" command and "Button" command
+            Button code and description will be shown in the preview window.
+            And the code has been copied to clipboard.
+            Paste button code to the code editor
+            Select button content and input 'Click Me!' using keyboard or voice command.
+            Remove unnecessary properties .
+            The result would be:
+        -->
+        <Button Name="button">Click Me!</Button>
+
+        <!--
+        Example2: Create a simple WPF application for adding names to a list box
+        Click "Grid" command and paste Grid code
+        Add an attribute to <Grid>element: Margin="10"
+        Click "Label" command and create a new <Label> in <Grid> element
+        Give it a string value of "Names"
+        Click "ListBox" command and create a new <ListBox> in <Grid> element
+        Give it the name of "lstNames"
+        Click "StackPanel" command and create a new <StackPanel> in <Grid> element
+        Add an attribute named "Margin" with a value of "5,0,0,0"
+        Click "TextBox" command and create a new <TextBox> in <StackPanel> element
+        Add an attribute named "x:Name" with a value of "txtName"
+        Click "Button" commmand and create a new <Button> in <StackPanel> element
+        Add an attribute named "x:Name" with a value of "btnAdd", an attribute named "Margin" with a value of "0,5,0,0"
+        And "Click" attribute to "ButtonAddName_Click"
+        Tell the grid where you want controls to be with "Grid.Row" and "Grid.Column"
+        All control names or attributes could be input usingkeyboard or voice command
+        The result would be:
+        -->
+        <Grid Margin="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Label Grid.Column="1">Names</Label>
+            <ListBox x:Name="lstNames" Grid.Row="1" />
+            <StackPanel
+                Grid.Row="1"
+                Grid.Column="1"
+                Margin="5,0,0,0">
+                <TextBox x:Name="txtName" />
+                <Button
+                    x:Name="btnAdd"
+                    Margin="0,5,0,0"
+                    Click="ButtonAddName_Click">
+                    Add Name
+                </Button>
+            </StackPanel>
+        </Grid>
+
+    </Grid>
+</Window>
