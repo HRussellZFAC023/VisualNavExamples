@@ -4,7 +4,7 @@ using VisualNavExamples;
 namespace UnitTestExamples
 {
     [TestClass]
-    public class UnitTestExample
+    public class UnitTestTemplate
     {
         // Welcome to the Hello World with FizzBuzz template
         // Get started, make sure VisualNav for Visual Studio is installed: LINK
